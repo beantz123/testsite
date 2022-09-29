@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#titulo{
+    font-family: sans-serif;
+    color: darkgreen;
+    margin-left: 5%;
+}
+
+#subtitulo{
+    font-family: sans-serif;
+    color: darkgreen;
+    margin-left: 7%;
+}
+
+fieldset{
+    border: 0;
+}
+
+body{
+    background-color: darkseagreen;
+    font-family: sans-serif;
+    font-size: 6mm;
+    margin-top: 7%;
+    margin-left: 36%;
+    justify-content: center;
+}
+
+input, select, textarea, button{
+   border-radius: 5px;
+}
+
+.campo{
+    margin-bottom: 1mm;
+}
+
+.campo label{
+   margin-bottom: 0.2;
+   color: darkgreen;
+}
+
+fieldset .grupo .campo{
+   float: left; 
+   margin-right: 1mm;
+   }
+
+.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea{
+   padding: 0,2m; 
+   border: 1px solid rgb(64, 248, 73)
+}
